@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_kuruma/pages/car_info.dart';
+import 'package:project_kuruma/pages/car_info_page.dart';
 import 'package:project_kuruma/theme/theme.dart';
 import 'package:project_kuruma/data/car_info.dart';
 

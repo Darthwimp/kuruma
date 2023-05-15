@@ -46,8 +46,8 @@ class _HomeState extends State<Home> {
             Container(
               height: screenSize.height * 0.35,
               child: ListView.builder(
-                itemCount: cars.length,
-                itemBuilder: (BuildContext context, int index) => carList(),
+                itemCount: carHomePage.length,
+                itemBuilder: (BuildContext context, int index) => carList(index),
               ),
             )
           ],

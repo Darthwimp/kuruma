@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-
-import 'package:project_kuruma/pages/home.dart';
+import 'package:project_kuruma/pages/login_page.dart';
 
 void main() {
   runApp(
@@ -11,7 +9,7 @@ void main() {
         primarySwatch: Colors.deepPurple,
         primaryColor: Colors.white,
     ),
-      home: Home(),
+      home: Login(),
     ),
   );
 }

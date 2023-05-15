@@ -8,3 +8,11 @@ TextStyle mainFont(double fontsize){
     color: Colors.white,
   );
 }
+
+TextStyle secFont(double fontsize){
+  return GoogleFonts.rajdhani(
+    fontSize: fontsize,
+    fontWeight: FontWeight.w500,
+    color: Colors.black,
+  );
+}
